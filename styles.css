@@ -1,0 +1,453 @@
+/* Add these styles to your existing CSS */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Add padding to space out the elements */
+}
+
+.logo {
+    float: left;
+    margin-left: 20px; /* Adjust as needed */
+}
+
+.logo img {
+    width: 160px;
+    height: auto; /* Adjust the size of the logo */
+}
+
+.slogan {
+    text-align: center;
+    font-size: 18px;
+}
+
+.start-button {
+    float: right;
+    margin-left: 30 px; /* Adjust as needed */
+}
+
+.start-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.start-button a:hover {
+    background-color: black;
+    color: white;
+}
+/* ...existing styles... */
+
+.nav-bar {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-bar ul {
+    list-style: none;
+    border-top: 0px solid #ccc; /* Add a separator line */
+    padding: 5px 0; 
+    margin-top: -10px;
+}
+
+.nav-bar ul li {
+    display: inline;
+    margin: 0 15px; /* Adjust spacing between navigation items */
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 500; /* Adjust font weight as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    transition: text-decoration 0.3s;
+    border: 1px solid transparent; /* Add a transparent border */
+    padding: 5px 24px; /* Add padding to create button-like appearance */
+    border-radius: 20px;
+}
+
+.nav-bar ul li a:hover {
+    text-decoration: none; /* Remove underline on hover */
+    border-color: #000; /* Add border color on hover */
+    background-color: #000; /* Add background color on hover */
+    color: #fff;
+}
+
+
+
+/* ...existing styles... */
+
+.intro-box {
+    background-color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column; /* Display contents in a column */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text within the box */
+}
+
+.intro-text {
+    color: white;
+    margin-bottom: 20px; /* Add spacing between text and image */
+}
+
+.intro-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    font-size: 16px;
+}
+
+.intro-image img {
+    border-radius: 10px;
+    margin: 0 auto;
+    display : block;
+    max-width: 60%; /* Set maximum width to 100% of the container */
+    height: auto; 
+}
+
+.about-us .about-link {
+    color: white;
+}
+
+.arrow-link {
+    font-size: 34px; /* Adjust the size of the arrow */
+    text-decoration: none; /* Remove underline */
+    color: gray; /* Arrow color */
+    display: inline-block; /* Make it a block-level element */
+    margin-top: 20px; /* Adjust the spacing from the content */
+    transition: transform 0.3s ease; /* Add a transform effect on hover */
+}
+
+.arrow-link:hover {
+    transform: translateX(5px); /* Move the arrow a bit to the right on hover */
+}
+
+/* styles.css */
+/* ...existing styles... */
+
+/* Footer styles */
+footer {
+    background-color: rgb(211, 205, 205); /* Black background color */
+    color: black; /* Text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-width: 500px; /* Adjust the logo width as needed */
+    height: auto;
+}
+
+.contact-info{
+    flex-grow: 1;
+}
+.contact-info p {
+    margin: 10px 0;
+    padding-left: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.contact-info p {
+    margin-left: 20px; /* Adjust this value to move the text to the right */
+}
+
+.social-media {
+    flex-grow: 1; /* Allow this element to grow and take up available space */
+    margin-left: 20px; /* Add spacing between "Let's collaborate" and social media links */
+}
+
+.social-media p {
+    margin: 10px 0;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/* ...existing styles... */
+
+.modal-background {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* styles.css */
+/* ...existing styles... */
+
+/* styles.css */
+/* ...existing styles... */
+
+/* Styles for the cursor ball */
+.cursor {
+    position: absolute;
+    width: 15px; /* Adjust the size of the cursor ball */
+    height: 15px; /* Adjust the size of the cursor ball */
+    background-color: rgb(106, 104, 104); /* Cursor ball color */
+    border-radius: 50%; /* Make it a circle */
+    pointer-events: none; /* Allow clicks to pass through */
+    transition: width 0.3s ease, height 0.3s ease, transform 0.3s ease; /* Add a transition effect */
+    transform-origin: center; /* Set the transform origin to the center */
+    transform: translate(-100%, -100%);
+}
+
+/* Styles for the hover links */
+.hover-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black; /* Link color */
+    transition: transform 0.3s ease; /* Add a transform effect on hover */
+}
+
+a:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+
+/* Your existing CSS styles */
+
+/* Style for the Services section heading */
+#services h2 {
+    font-size: 24px;
+    color: #333; /* Heading text color */
+    text-align: center;
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+/* Style for individual service containers */
+.service {
+    margin: 20px auto; /* Center the service containers horizontally and provide spacing */
+    max-width: 800px; /* Adjust the maximum width as needed */
+    padding: 20px; /* Add padding for spacing around each service */
+    border: 1px solid #ccc; /* Add a border for separation */
+    border-radius: 10px; /* Add rounded corners */
+    background-color: #fff; /* Background color for each service container */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style for individual service headings */
+.service h3.service-heading {
+    font-size: 20px;
+    color: #333; /* Service title text color */
+    cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+}
+
+/* Style for individual service descriptions (initially hidden) */
+.service p.service-description {
+    display: none; /* Hide descriptions initially */
+    font-size: 16px;
+    color: #666; /* Service description text color */
+    line-height: 1.5; /* Line spacing for better readability */
+}
+
+.intr-text{
+    color:#000;
+    margin-left: 40px;
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    padding: 20px;
+}
+
+/* Add these styles to your existing CSS */
+#project-form {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 40px;
+    background-color: #f2f2f2; /* Background color for the form */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#project-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#project-form input[type="text"],
+#project-form input[type="tel"],
+#project-form input[type="email"],
+#project-form select,
+#project-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#project-form select {
+    appearance: none; /* Remove default styles for select dropdown */
+    background: url("arrow.png") no-repeat right center; /* Add a custom dropdown arrow */
+    background-size: 20px;
+    padding-right: 30px;
+}
+
+#project-form textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+#project-form button[type="submit"] {
+    background-color: rgb(224, 212, 212); /* Button background color */
+    color: black; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#project-form button[type="submit"]:hover {
+    background-color: black;
+    color: white; /* Button background color on hover */
+}
+ 
+
+.back-to-home {
+    display: inline-block;
+    margin-left: 80%;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;  
+}
+
+.back-to-home:hover {
+        background-color: black;
+        color: white;
+}
+
+/* Apply styles to the iframe containing the embedded Google Form */
+iframe {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the iframe horizontally */
+    display: block; /* Ensure the iframe is a block-level element */
+    border: none; /* Remove the border around the iframe */
+    padding: 20px; /* Add some padding around the iframe */
+    background-color: #f2f2f2; /* Background color for the form */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the "Back to Home" link */
+.back-to-home {
+    display: inline-block;
+    margin-left: 80%;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-to-home:hover {
+    background-color: black;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .nav-bar {
+        display: block; /* Show the navigation menu */
+    }
+    .menu-button {
+        display: none; /* Hide the button on small screens */
+    }
+    .logo {
+        float: left;
+        margin-left: 10px; /* Adjust as needed */
+    }
+    
+    .logo img {
+        width: 60px;
+        height: auto; /* Adjust the size of the logo */
+    }
+    
+    .slogan {
+        text-align: center;
+        font-size: 8px;
+    }
+    
+    .start-button {
+        float: right;
+        margin-left: 20 px; /* Adjust as needed */
+    }
+    .start-button a {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: whitesmoke;
+        color: black;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+}
+
+.intro-text h2 {
+    font-size: 2rem; /* Adjust the font size using relative units */
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    font-size: 1rem; /* Adjust the font size using relative units */
+}
+
